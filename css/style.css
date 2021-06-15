@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(to bottom, #66ff66 20%, #66ccff 81%);
+    height: 100%;
+}
+p{
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+}
+div {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.titulo{
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.titulo .img_titulo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.desenhos{
+    font-family: "Audiowide", sans-serif;
+}
+img{
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.personagens{
+    width: auto;
+    height: 50vh;
+    margin-top: 100px;
+}
+.botao{
+    font-family: "Audiowide", sans-serif;
+    background-color: #1db122; /* Green*/
+    border-radius: 7px;
+    color: rgb(5, 90, 69);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botao:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+.marcador{
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+  
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    body {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
